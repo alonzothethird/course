@@ -1,3 +1,12 @@
+const express = require('express')
+const helmet = require('helmet')
+
+const app = express()
+
+app.use(helmet())
+
+// ...
+
 {
 	"name": "fcc-infosec-challenges",
 	"version": "0.0.1",
